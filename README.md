@@ -6,12 +6,7 @@
 <br >В категории выбранного раздела присутствует не менее 4 товаров.
 
 ## Шаги выполнения:
-- Перейти в категорию "Apparel & Accessories" → "Shoes".
-- Выбрать товары: 
-  - Designer Men Casual Formal Double Cuffs Grandad Band Collar Shirt Elegant Tie;
-  - Womens high heel point toe stiletto sandals ankle strap court shoes;
-  - Fiorella Purple Peep Toes;
-  - Jersey Cotton Striped Polo Shirt.
+- Перейти в категорию "Apparel & Accessories".
 - Выбрать сортировку "Name A - Z" (по имени по возрастанию).
 - Выбрать сортировку "Name Z - A" (по имени по убыванию).
 - Выбрать сортировку "Price Low > High" (по цене по возрастанию).
