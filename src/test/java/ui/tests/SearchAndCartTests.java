@@ -1,7 +1,7 @@
-package tests;
+package ui.tests;
 
-import helpers.RandomHelper;
-import models.CartItem;
+import ui.helpers.RandomHelper;
+import ui.models.CartItem;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

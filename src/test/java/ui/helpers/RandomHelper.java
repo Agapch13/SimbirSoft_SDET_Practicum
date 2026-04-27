@@ -1,4 +1,4 @@
-package helpers;
+package ui.helpers;
 
 import java.util.*;
 

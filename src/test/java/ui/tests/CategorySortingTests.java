@@ -1,9 +1,9 @@
-package tests;
+package ui.tests;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static enums.SortType.*;
+import static ui.enums.SortType.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class CategorySortingTests extends BaseTest {

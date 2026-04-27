@@ -1,7 +1,7 @@
-package pages;
+package ui.pages;
 
 import io.qameta.allure.Step;
-import models.CartItem;
+import ui.models.CartItem;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

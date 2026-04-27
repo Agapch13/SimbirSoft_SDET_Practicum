@@ -1,9 +1,9 @@
-package tests;
+package ui.tests;
 
-import helpers.RandomHelper;
+import ui.helpers.RandomHelper;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import pages.ProductPage;
+import ui.pages.ProductPage;
 
 import java.util.List;
 

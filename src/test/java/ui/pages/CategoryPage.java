@@ -1,6 +1,6 @@
-package pages;
+package ui.pages;
 
-import enums.SortType;
+import ui.enums.SortType;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

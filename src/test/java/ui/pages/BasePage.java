@@ -1,6 +1,6 @@
-package pages;
+package ui.pages;
 
-import helpers.WaitHelper;
+import ui.helpers.WaitHelper;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 

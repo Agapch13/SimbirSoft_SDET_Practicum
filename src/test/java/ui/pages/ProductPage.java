@@ -1,6 +1,6 @@
-package pages;
+package ui.pages;
 
-import helpers.RandomHelper;
+import ui.helpers.RandomHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
