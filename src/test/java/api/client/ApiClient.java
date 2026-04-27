@@ -18,7 +18,6 @@ import java.util.List;
 public class ApiClient {
 
     private final static String BASE_URI = "http://localhost:8080";
-
     private final RequestSpecification baseSpecification = new RequestSpecBuilder()
             .setBaseUri(BASE_URI)
             .setContentType(ContentType.JSON)
@@ -67,7 +66,6 @@ public class ApiClient {
                 .get("/api/get/{id}")
                 .then()
                 .statusCode(statusCode);
-
     }
 
     @Step("Send DELETE /api/delete/{id} request and check status code {statusCode}")
