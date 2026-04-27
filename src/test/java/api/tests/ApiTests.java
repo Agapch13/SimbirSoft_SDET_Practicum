@@ -1,6 +1,6 @@
 package api.tests;
 
-import api.api.ApiClient;
+import api.client.ApiClient;
 import api.models.request.EntityRequest;
 import api.models.request.EntityRequest.Addition;
 import api.models.response.EntityResponse;

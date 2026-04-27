@@ -1,4 +1,4 @@
-package api.api;
+package api.client;
 
 import api.models.request.EntityRequest;
 import api.models.response.EntityResponse;
@@ -59,7 +59,7 @@ public class ApiClient {
                 .as(EntityResponse.class);
     }
 
-    @Step("Send GET api/get/{id} request")
+    @Step("Send GET api/get/{id} request and check status code {statusCode}")
     public ValidatableResponse getById(String id, int statusCode) {
         return RestAssured.given()
                 .spec(baseSpecification)
@@ -70,13 +70,14 @@ public class ApiClient {
 
     }
 
-    @Step("Send DELETE /api/delete/{id} request")
+    @Step("Send DELETE /api/delete/{id} request and check status code {statusCode}")
     public void deleteById(String id, int statusCode) {
         deleteById(id)
                 .then()
                 .statusCode(statusCode);
     }
 
+    @Step("Send DELETE /api/delete/{id} request")
     public Response deleteById(String id) {
         return RestAssured.given()
                 .spec(baseSpecification)
