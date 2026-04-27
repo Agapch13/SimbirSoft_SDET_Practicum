@@ -82,6 +82,6 @@ class ApiTests {
 
         EntityResponse actualResponse = apiClient.getById(createdEntityId);
         EntityResponse expectedResponse = EntityResponse.create(createdEntityId, entityRequest);
-        assertEquals(expectedResponse, actualResponse, "Updated entityRequest does not match the expectedResponse one");
+        assertEquals(expectedResponse, actualResponse, "Updated entity does not match the expected one");
     }
 }
