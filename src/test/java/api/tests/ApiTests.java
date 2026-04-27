@@ -41,6 +41,7 @@ class ApiTests {
     void createEntityTest() {
         EntityResponse expectedResponse = EntityResponse.create(createdEntityId, entityRequest);
         EntityResponse actualResponse = apiClient.getById(createdEntityId);
+
         assertNotNull(createdEntityId, "Id of the created entity should not be null");
         assertEquals(expectedResponse, actualResponse, "Expected entity does not match actual");
     }
@@ -50,6 +51,7 @@ class ApiTests {
     void getEntityByIdTest() {
         EntityResponse expectedResponse = EntityResponse.create(createdEntityId, entityRequest);
         EntityResponse actualResponse = apiClient.getById(createdEntityId);
+
         assertEquals(expectedResponse, actualResponse, "Expected entity does not match actual");
     }
 
@@ -58,6 +60,7 @@ class ApiTests {
     void getAllEntitiesTest() {
         EntityResponse expectedEntity = EntityResponse.create(createdEntityId, entityRequest);
         List<EntityResponse> actualEntities = apiClient.getAll();
+
         assertTrue(!actualEntities.isEmpty(), "Response list should not be empty");
         assertEquals(List.of(expectedEntity), actualEntities, "Expected entities does not match actual");
     }
